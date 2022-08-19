@@ -1,0 +1,74 @@
+.bgimg{
+  background: no-repeat center ; 
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.2;
+  
+}
+
+.calculator{
+    width: 400px;
+    height: 600px;
+    background-color: #fad9f6;
+    background: linear-gradient(#b7d7f5, #ddb3f5);
+    margin-left: 38.5%;
+    margin-top: 5%;
+    box-shadow: 1px 5px 5px .9px #D3D8E8;
+    border-radius: 50px;
+}
+.heading{
+    font-family: "Oxygen", "Poppins", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px #D980FA, 0 0 25px #FDA7DF, 0 0 5px black;
+    text-align: center;
+}
+
+#screen{
+    width: 330px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+    pointer-events: none;
+    border: 0ch;
+    text-align: right;
+    box-shadow: 4px solid;
+    border-radius: 50px;
+    box-shadow: inset;
+    box-shadow: 1px 5px 5px .9px #D3D8E8;
+    font-size: large;
+    font-weight: 600;
+    cursor: no-drop;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 0ch;
+    color: white;
+    font-size: 18px;
+    box-shadow: 1px 5px 5px .9px #D3D8E8;
+}
+
+.row1{
+    background-color: #D980FA;
+}
+.row2{
+    background-color: #FDA7DF;
+}
+
+.backspace{
+    width: 100%;
+    height: 100%;
+}
+
+.zero{
+    width: 139px;
+    border-radius: 50px;
+}

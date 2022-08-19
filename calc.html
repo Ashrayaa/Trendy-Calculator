@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="calcstyle.css" type="text/css" rel="stylesheet">
+    <script src="calcfunct.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <!img src="images/purple-pink-watercolor-texture-background.jpg" class="bgimg">
+        <h3 class="heading">Calculator</h3>
+        <div class="calculator">
+            
+            <div class="output">
+                <input type="text" id="screen">
+                
+                <div class="buttons">
+                    <div class="row">
+                        <button class="btn row1" onclick="clearscreen()">AC</button>
+                        <button class="btn row1" onclick="back()"><img class="backspace" src="images/backspace.png"></button>
+                        <button class="btn row1" onclick="clickbutton('%')">%</button>
+                        <button class="btn row1" onclick="clickbutton('/')">÷</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn row2" onclick="clickbutton(7)">7</button>
+                        <button class="btn row2" onclick="clickbutton(8)">8</button>
+                        <button class="btn row2" onclick="clickbutton(9)">9</button>
+                        <button class="btn row1" onclick="clickbutton('*')">x</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn row2" onclick="clickbutton(4)">4</button>
+                        <button class="btn row2" onclick="clickbutton(5)">5</button>
+                        <button class="btn row2" onclick="clickbutton(6)">6</button>
+                        <button class="btn row1" onclick="clickbutton('-')">-</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn row2" onclick="clickbutton(1)">1</button>
+                        <button class="btn row2" onclick="clickbutton(2)">2</button>
+                        <button class="btn row2" onclick="clickbutton(3)">3</button>
+                        <button class="btn row1" onclick="clickbutton('+')">+</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn zero row2" onclick="clickbutton(0)">0</button>
+                        <button class="btn row2" onclick="clickbutton('.')">.</button>
+                        <button class="btn row1" onclick="equalClick('=')">=</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
